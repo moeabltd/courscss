@@ -1,0 +1,93 @@
+/* .image{
+  float: left;
+}
+
+.link{
+  position: absolute;
+  border: 2px solid #0099CC;
+  border-radius: 4px;
+  padding: 1%;
+}
+
+.gorilla-card{
+  border: 2px solid black;
+
+} */
+
+body{
+  font-family: 'Palanquin', sans-serif;
+}
+
+header > nav {
+  background-color: darkred;
+  font-family: 'Palanquin', sans-serif;
+  height: 60px;
+}
+
+h1{
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 20px;
+}
+
+.hero{
+  height: calc(100vh - 60px);
+  background-image: url(images/lg-gorilla08.jpg);
+}
+
+.hero p {
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  margin: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: blue;
+}
+
+article {
+  min-height: 20vh;
+}
+
+footer {
+  height: 100px;
+  background-color: grey;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: black;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
+@media (min-width: 1281px) {
+  body {
+    background-color: green;
+  }
+  h1{
+    font-size: 40px;
+  }
+}
