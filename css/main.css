@@ -12,7 +12,7 @@
 .gorilla-card{
   border: 2px solid black;
 
-} */
+}
 
 body{
   font-family: 'Palanquin', sans-serif;
@@ -90,4 +90,166 @@ footer {
   h1{
     font-size: 40px;
   }
+}
+ */
+
+nav{
+  height: 60px;
+  background-color: #212529;
+  width: auto;
+}
+
+ul{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+img{
+  float: left;
+    clear:both;
+}
+
+footer {
+ height: 5em;
+ background-color: #212529;
+}
+
+.center{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logo{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+.hero{
+
+  height: 500px;
+  width: 100%;
+  color: black;
+  background-image: url("../images/lg/lg-gorilla15.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.contain{
+  padding-top: 150px;
+}
+
+.para{
+  color: white;
+  font-size: 18px;
+
+}
+
+.para-title {
+  font-size: 80px;
+  color: #FFC831;
+}
+
+.pg{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.textlist{
+  height: 400px;
+  width: 100%;
+}
+
+.block{
+  height: 300px;
+  width: 500px;
+  background-color: #ffc831;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.block1{
+  height: 300px;
+  width: 300px;
+  background-color: #ffc831;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.listblock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo_img{
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  float: left;
+}
+
+.text{
+  color: white;
+}
+
+.rediList{
+  color: black;
+  text-align: right;
+  margin-right: 30px;
+}
+
+.lien-right {
+  float: right;
+  margin-top: 50px;
+}
+
+.size-img {
+    width: 50%;
+}
+
+.middle-container {
+    padding: 3em;
+    padding-left: 53em;
+}
+
+.middle-title {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.middle-lien {
+    margin-top: 50px;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.grand-monkey {
+  width: 100%;
 }
