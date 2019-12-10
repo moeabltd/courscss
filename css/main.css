@@ -14,9 +14,7 @@
 
 }
 
-body{
-  font-family: 'Palanquin', sans-serif;
-}
+
 
 header > nav {
   background-color: darkred;
@@ -64,34 +62,42 @@ footer {
   height: 100px;
   background-color: grey;
 }
+ */
+
+
+ body{
+   font-family: 'Palanquin', sans-serif;
+ }
 
 @media (min-width: 481px) and (max-width: 767px) {
   body {
-    background-color: green;
+    background-color: #fdcf41;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-color: yellow;
+    background-color: #1ABC90;
   }
 }
+
 @media (min-width: 1025px) and (max-width: 1280px) {
   body {
-    background-color: black;
+    background-color: #ffc831;
   }
   h1{
     font-size: 40px;
   }
+
 }
 @media (min-width: 1281px) {
   body {
-    background-color: green;
+    background-color: #ffffff;
   }
   h1{
     font-size: 40px;
   }
 }
- */
+
 
 nav{
   height: 60px;
@@ -122,12 +128,15 @@ footer {
  background-color: #212529;
 }
 
-.center{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.footer{
+  color: #FFFFFF;
+
 }
 
+.textlist{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .logo{
   height: 40px;
@@ -144,6 +153,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  background-position: center;
 }
 
 .contain{
@@ -161,20 +171,18 @@ footer {
   color: #FFC831;
 }
 
-.pg{
+.pg{/*
   display: flex;
   align-items: center;
   height: 400px;
   width: 400px;
   justify-content: space-around;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 20px;*/
+column-count: 3;
 }
 
-.textlist{
-  height: 400px;
-  width: 100%;
-}
+
 
 .block{
   height: 300px;
@@ -209,6 +217,8 @@ footer {
   background-color: white;
   float: left;
 }
+
+
 
 .text{
   color: white;
